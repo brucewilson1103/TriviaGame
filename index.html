@@ -10,41 +10,48 @@
 </head>
 
 <body>
-  <p id="timer">Timer</p>
+  <div class="container">
+    <div class="Heading">
+      <h1>The Walking Dead Quiz</h1>
+      <p id="timer">Timer</p>
+    </div>
 
-  <p>What do most of the characters refer to the zombies as?</p>
-  <input type="radio" name="q1" value="Zombies"> Zombies<br>
-  <input type="radio" name="q1" value="Walkers"> Walkers<br>
-  <input type="radio" name="q1" value="Scary"> Scary People
+    <p>What do most of the characters refer to the zombies as?</p>
+    <input type="radio" name="q1" value="Zombies"> Zombies<br>
+    <input type="radio" name="q1" value="Walkers"> Walkers<br>
+    <input type="radio" name="q1" value="Scary"> Scary People
 
-  <p>How many children does Rick have on the show?</p>
-  <input type="radio" name="q2" value="1"> 1<br>
-  <input type="radio" name="q2" value="2"> 2<br>
-  <input type="radio" name="q2" value="0"> 0
+    <p>How many children does Rick have on the show?</p>
+    <input type="radio" name="q2" value="1"> 1<br>
+    <input type="radio" name="q2" value="2"> 2<br>
+    <input type="radio" name="q2" value="0"> 0
 
-  <p>What is Daryl's weapon of choice?</p>
-  <input type="radio" name="q3" value="None"> He doesn't use a weapon<br>
-  <input type="radio" name="q3" value="Fists"> His fists<br>
-  <input type="radio" name="q3" value="Crossbow"> A crossbow
+    <p>What is Daryl's weapon of choice?</p>
+    <input type="radio" name="q3" value="None"> He doesn't use a weapon<br>
+    <input type="radio" name="q3" value="Fists"> His fists<br>
+    <input type="radio" name="q3" value="Crossbow"> A crossbow
 
-  <p>Maggie was the leader at which location?</p>
-  <input type="radio" name="q4" value="Kingdom"> The Kingdom<br>
-  <input type="radio" name="q4" value="Prison"> The Prison<br>
-  <input type="radio" name="q4" value="Hilltop"> Hilltop
+    <p>Maggie was the leader at which location?</p>
+    <input type="radio" name="q4" value="Kingdom"> The Kingdom<br>
+    <input type="radio" name="q4" value="Prison"> The Prison<br>
+    <input type="radio" name="q4" value="Hilltop"> Hilltop
 
-  <p>Who are you?</p>
-  <input type="radio" name="q5" value="Negan"> I am Negan.<br>
-  <input type="radio" name="q5" value="Snow"> Snow White.<br>
-  <input type="radio" name="q5" value="Captain"> Captain America.
+    <p>Who are you?</p>
+    <input type="radio" name="q5" value="Negan"> I am Negan.<br>
+    <input type="radio" name="q5" value="Snow"> Snow White.<br>
+    <input type="radio" name="q5" value="Captain"> Captain America.
 
-  <div class="correctoutput">
+    <button class="results">
+      Results:<br>
+      <div class="correctoutput">
 
+      </div>
+
+      <div class="wrongoutput">
+
+      </div>
+    </button>
   </div>
-
-  <div class="wrongoutput">
-
-  </div>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>

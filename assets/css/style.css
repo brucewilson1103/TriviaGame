@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/background.png);
+  color: beige;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.heading{
+  margin: 0 auto;
+  width: 50%;
+}
+
+.container{
+  padding: 10px;
+background-image: url(../images/background2.png);
+width: 70%;
+}
+
+.results{
+  margin-left: 40%;
+  background-color: black;
+  color: darkred;
+  font-size: 25px;
+}
