@@ -1,7 +1,7 @@
 var myVar = setInterval(function () {
   QuizTimer()
 }, 1000);
-var i = 10;
+var i = 120;
 var numcorrect = 0
 // var numwrong = 0
 
